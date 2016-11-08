@@ -1,0 +1,15 @@
+.col-xs-4, .row {
+	background-color: #cfc;
+	border: 1px solid red;
+	padding-right: 13px;
+}
+.row {
+	margin: 0px 100px;
+}
+.templ {
+	background: url('template.png')
+}
+.navbar-default {
+	background: none;
+	border: none;
+}

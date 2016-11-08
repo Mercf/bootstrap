@@ -1,0 +1,98 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min) { ... }*/
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: @screen-md-min) { ... }*/
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) { ... }
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }*/
+.page {
+  background-color: #3c763d;
+
+}
+.col1 {
+  background-color: #ecf;
+}
+.col2 {
+  background-color: #caf;
+}
+.row-2-col-1 {
+  background-color: #eef;
+}
+.row-2-col-2 {
+  background-color: #afc;
+}
+.row-2-col-3 {
+  background-color: #cef;
+}
+.row-2-col-4 {
+  background-color: #fcf;
+}
+.row-3-col-1 {
+  background-color: #aac;
+}
+.row-4-col-1 {
+  background-color: #aac;
+}
+.row-4-col-2 {
+  background-color: #afc;
+}
+.row-5-col-1 {
+  background-color: #eac;
+}
+.row-5-col-2 {
+  background-color: #aec;
+}
+.row-6-col-1 {
+  background-color: #acc;
+  }
+.row-6-col-2 {
+  background-color: #aac;
+}
+.row-7-col-1 {
+  background-color: #eee;
+}
+.row-7-col-2 {
+  background-color: #eae;
+}
+.row-8-col-1 {
+  background-color: #eee;
+}
+.row-8-col-2 {
+  background-color: #eae;
+}
+.page__header {
+  padding: 10px 10px 10px 10px;
+  border: 3px solid #2b542c;
+  mso-border-shadow: 1px 1px 1px grey;
+  background-color: #5cb85c;
+  box-shadow: 1px 2px 1px grey;
+  text-shadow: 1px 1px 1px grey;
+}
+h1 {
+  color: #f7ecb5;
+}
+p {
+  margin-left: 20px;
+}
+.content__table, .content__pagination {
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
+.content {
+  margin-left: 15px;
+}
+.page__alert_med {
+  width: 70%;
+  }
+.page__container {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+
+}
